@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Survay Form</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="headings">
+            <h1>freeCodeCamp Survay Form</h1>
+            <p>Thank you for taking time to help us imporve our system</p>
+        </div>
+
+        <div class="form-inputs">
+            <form action="" method="post">
+                <fieldset id="intro">
+                    <label for="name">Name<input type="text" name="email" id="name"
+                            placeholder="Input Your Name"></label>
+                    <label for="email">Email<input type="email" name="email" id="email"
+                            placeholder="Input Your Email"></label>
+                    <label for="age">Age(optional) <input type="text" name="age" id="age" placeholder="Age"> </label>
+                </fieldset>
+
+                <fieldset id="roles">
+                    <p>Which option best describes your current role ?</p>
+                    <label for="role">
+                        <select name="role" id="role">
+                            <option disabled selected value>Select an option</option>
+                            <option value="student">Student</option>
+                            <option value="job">Full Time Job</option>
+                            <option value="learn">Full Time Learning</option>
+                            <option value="preferNo">Prefer Not To Say</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <fieldset id="recommends">
+                    <p>Would you recommend freeCodeCamp to a friend ?</p>
+                    <label for="definitely"><input type="radio" name="recommend" selected rerquire>Definitely</label>
+                    <label for="maybe"><input type="radio" name="recommend">Maybe</label>
+                    <label for="notsure"><input type="radio" name="recommend">Not Sure</label>
+                </fieldset>
+
+                <fieldset id="features">
+                    <p>What is your favorite feature of freeCodeCamp?</p>
+                    <label for="feature">
+                        <select name="feature" id="feature">
+                            <option disabled selected value>Select an option</option>
+                            <option value="challenges">Challenges</option>
+                            <option value="projects">Projects</option>
+                            <option value="community">Community</option>
+                            <option value="opensource">Opensource</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <fieldset id="limproves">
+                    <p>What would you like to see improved? (Check all that apply)</p>
+                    <label for=""><input type="checkbox">Front-end Projects</label>
+                    <label for=""><input type="checkbox">Back-end Projects</label>
+                    <label for=""><input type="checkbox">Data Visulization</label>
+                    <label for=""><input type="checkbox">Challenges</label>
+                    <label for=""><input type="checkbox">Open Source Community</label>
+                    <label for=""><input type="checkbox">Gitter help rooms</label>
+                    <label for=""><input type="checkbox">Videos</label>
+                    <label for=""><input type="checkbox">City meetups</label>
+                    <label for=""><input type="checkbox">Wiki</label>
+                    <label for=""><input type="checkbox">Forum</label>
+                    <label for=""><input type="checkbox">Additional Courses</label>
+                </fieldset>
+
+                <fieldset id="comments">
+                    <p>Any comments or Suggestions ?</p>
+                    <textarea name="comments" id="comments" placeholder="Enter your comments here"></textarea>
+                </fieldset>
+
+                <fieldset id="sumbitbtn">
+                    <input type="submit" id="submit">
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

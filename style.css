@@ -1,0 +1,99 @@
+body {
+    background-color: cyan;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding: 40px;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.headings p {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.form-inputs {
+    background-color: rgba(22, 22, 22, .5);
+    padding: 40px;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    padding: 5px 0;
+}
+label[for=name], label[for=email], label[for=age], #roles p, #recommends p, #features p, #limproves p, #comments p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #efefef;
+    padding: 0;
+    margin: 0;
+}
+
+input[type=text], input[type=email], select {
+    display: block;
+    margin: 5px 0;
+    padding: 2px 10px;
+    height: 30px;
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#roles , #features{
+    padding-top: 0;
+}
+
+#roles #role, #features #feature {
+    width: 98%;
+    color: #665a5a;
+}
+
+#recommends label, #limproves label{
+    font-size: 18px;
+    color: #efefef;
+}
+
+#recommends input[type=radio], #limproves input[type=checkbox] {
+    margin: 2px 8px;
+}
+
+#comments textarea{
+    margin: 10px 2px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 200px;
+    width: 680px;
+    border: none;
+    background-color: white;
+}
+
+#submit {
+    margin: 5px auto;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #efefef;
+    background: #00ff00;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
